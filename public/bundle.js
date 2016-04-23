@@ -20021,7 +20021,7 @@
 /* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -20034,15 +20034,25 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var App = _react2.default.createClass({
-	  displayName: 'App',
+	  displayName: "App",
 	  render: function render() {
 	    return _react2.default.createElement(
-	      'div',
-	      null,
+	      "div",
+	      { className: "col-lg-offset-4 col-lg-4" },
 	      _react2.default.createElement(
-	        'h1',
+	        "h1",
 	        null,
-	        'HELLO'
+	        "HELLO"
+	      ),
+	      _react2.default.createElement(
+	        "h1",
+	        null,
+	        "Style me with ",
+	        _react2.default.createElement(
+	          "a",
+	          { href: "http://flexboxgrid.com/", target: "_blank" },
+	          "FlexboxGrid"
+	        )
 	      )
 	    );
 	  }

@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "watch": "webpack --watch",
+    "web": "webpack-dev-server",
+    "start": "concurrent --kill-others \"npm run watch\" \"npm run web\""
   },
   "keywords": [
     "react",
