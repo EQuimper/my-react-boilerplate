@@ -1,0 +1,25 @@
+{
+  "name": "my-react-boilerplate",
+  "description": "",
+  "main": "src/index.js",
+  "authors": [
+    "Emanuel Quimper"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "boilerplate",
+    "flexbox"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "flexboxgrid": "^6.3.0"
+  }
+}
