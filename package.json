@@ -5,10 +5,7 @@
   "main": "wepback.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "watch": "webpack --watch",
-    "web": "webpack-dev-server",
-    "start": "concurrent --kill-others \"npm run watch\" \"npm run web\""
+    "start": "webpack-dev-server"
   },
   "keywords": [
     "react",
