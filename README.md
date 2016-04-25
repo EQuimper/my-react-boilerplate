@@ -2,9 +2,9 @@
 
 > npm i && bower i
 
-If webpack-dev-server is not already install do
+If webpack-dev-server and babel is not already install in global do
 
-> npm i -g webpack-dev-server
+> npm i -g webpack-dev-server babel
 
 > npm start
 

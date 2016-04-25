@@ -6,14 +6,19 @@
 			"React": true
 		},
 		"ecmaFeatures": {
-			"jsx": true
+			"jsx": true,
+			"spread": true
 		},
-		"plugins": ["react"]
+		"plugins": ["react", "babel"],
+		"extends": ["eslint:recommended", "plugin:react/recommended"]
 	},
 	"rules": {
+		"strict": 0,
 		"semi": 2
 	},
 	"env": {
-		"es6": true
+		"es6": true,
+		"node": true,
+		"browser": true
 	}
 }
